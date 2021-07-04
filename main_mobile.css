@@ -1,0 +1,295 @@
+@font-face {
+    font-family: GilroyBoldFont;
+    src: url(Fonts/gilroy-bold.ttf)
+}
+
+@font-face {
+    font-family: GilroyMediumFont;
+    src: url(Fonts/gilroy-medium.ttf)
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+}
+
+a:visited {
+    color: #828282;
+}
+
+a:active {
+    color: black;
+}
+
+.navigator {
+    display: none;
+    width: 65%;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    font-family: GilroyBoldFont;
+    color: #828282;
+    position: relative;
+    font-size : 18px;
+    line-height: 22px;
+    padding-top: 35px;
+    margin: 0 auto;
+}
+
+.nav_line {
+    display: none;
+    position: absolute;
+    width: 60%;
+    height: 0px;
+    left: 16.3%;
+    top: 87.94px;
+
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.aut {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    padding-left: 0;
+}
+
+.aut img{
+    display: flex;
+    position:absolute;
+    left: 85.5%;
+    top: 11%;
+}
+
+.aut .author_name {
+    /* display: flex; */
+    font-family: GilroyBoldFont;
+    padding-top: 60px;
+    padding-left: 14.5%;
+
+    /* height: 118.17px; */
+    width: 123.51px;
+    /* left: 251.04px; */
+    top: 128.12px;
+
+    font-size: 47.33px;
+    line-height: 59px;
+
+    color: #070707;
+}
+
+.aut .author {
+    /* position: absolute; */
+    padding-top: 5%;
+    padding-left: 15%;
+    height: 44.06px;
+    width: 60%;
+    left: 671.78px;
+    top: 183.21px;
+
+    font-family: GilroyMediumFont;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #070707;
+}
+
+.aut .ru_eng {
+    display: none;
+    position: absolute;
+    padding-top: 71%;
+    padding-left: 56%;
+    width: 65px;
+
+    transform: rotate(270deg);
+
+    color: #828282;
+
+    font-family: GilroyMediumFont;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.author_photo {
+    display: none;
+    padding-top: 50px;
+    width: 106.5%;
+    position: relative;
+    text-align: center;
+    right: 35px;
+}
+
+.author_photo1 {
+    display: flex;
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    left: 12%;
+}
+
+.bor {
+    position: relative;
+    top: 104.6px;
+    display: block;
+    border: 1px solid #fff;
+    padding: 80px 0px 120px 10px;
+    background-color:#f6f6f6;
+    text-align: center;
+    width: 105%;
+}
+
+.bor .about_me {
+    font-family: GilroyBoldFont;
+    font-size: 34px;
+}
+
+.bor .about_text {
+    font-family: GilroyMediumFont;
+    font-size: 18px;
+    width: 300%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: 200px;
+    left: 6%;
+}
+
+.skills .skills_name {
+    font-family: GilroyBoldFont;
+    font-size: 34px;
+}
+
+.skills .skills_text {
+    font-family: GilroyMediumFont;
+    font-size: 18px;
+}
+
+.skills img {
+    width: 40%;
+    margin: 0;
+    padding-bottom: 22%;
+}
+
+.skills img:nth-child(6n) {
+    margin-right: 0;
+}
+
+.bor2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    /* display: block; */
+    border: 1px solid #fff;
+    padding: 80px 100px 120px 10px;
+    background-color:#f6f6f6;
+    text-align: center;
+    width: 100%;
+}
+
+.bor2 .mobile .portfolio1 {
+    display: inline;
+    position: relative;
+    font-family: GilroyBoldFont;
+    font-size: 34px;
+    left: 10px;
+}
+
+.bor2 .mobile img {
+    display: flex;
+    position: relative;
+    top: 70px;
+    padding-bottom: 50px;
+    /* width: 50%; */
+    /* width: 370px !important; */
+}
+
+.bor2 .mobile .text_photo1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: relative;
+    font-family: GilroyMediumFont;
+    top: 50px;
+    padding-bottom: 50px;
+    /* left: 2%; */
+    font-size: 18px;
+    line-height: 22px;
+    /* text-align: center; */
+    text-decoration-line: underline;
+}
+
+.bor2 .desktop .portfolio {
+    display: none;
+}
+
+.bor2 .desktop .text_photo {
+    display: none;
+}
+
+.bor2 .desktop img {
+    display: none;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: 375px;
+    /* right: 5px; */
+}
+
+.contacts .contacts_name {
+    font-family: GilroyBoldFont;
+    font-size: 34px;
+}
+
+.contacts .contacts_text {
+    font-family: GilroyMediumFont;
+    font-size: 18px;
+}
+
+.contacts .send {
+    background-color: black;
+    color: white;
+    font-family: GilroyMediumFont;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    width: 80%;
+    height: 42px;
+    outline: none;
+}
+
+.contacts img {
+    position: relative;
+    padding-top: 50px;
+    width: 80%;
+}
+
+.contacts .contacts_end {
+    position: relative;
+    font-family: GilroyMediumFont;
+    color: #828282;
+    padding-bottom: 90px;
+}
